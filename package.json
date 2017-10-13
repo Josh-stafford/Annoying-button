@@ -1,0 +1,10 @@
+{
+  "name": "room-ringer",
+  "version": "0.0.1",
+  "description": "A button that I will link to a speaker in my room to ring",
+  "dependencies": {
+    "express": "^4.16.2",
+    "python-shell": "^0.4.0",
+    "socketio": "^1.0.0"
+  }
+}

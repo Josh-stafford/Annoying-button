@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>ANNOY JOSH</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+		<script src="client.js"></script>
+	
+		<style>
+			.sender {
+				background-color: #42b0f4;
+				font-size: 40px;
+				border: none;
+				padding: 15px 32px;
+				color: white;
+				-webkit-transition-duration: 0.3s; /* Safari */
+   				 transition-duration: 0.3s;
+			}
+
+			.sender:hover{
+				background-color: #42d9f4;
+				text-shadow: 2px 2px #adb0b5;
+				box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+			}
+
+			.sender:active{
+				background-color: #23899b;
+				color: grey;
+			}
+		</style>
+	
+	</head>
+	<body>
+		<p style="text-align: center; float: center; margin-top: 100px;">
+			<button id="SEND" class="sender"  onclick="sendNot()">ANNOY ME</button>
+		</p>
+	</body>
+</html>
